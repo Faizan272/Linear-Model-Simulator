@@ -9,3 +9,9 @@ The correlation checker webpage allows users to visualize the correlation betwee
 
 The graphing webpage allows users to select the columns they want to plot and choose from a variety of graph types.
 
+
+# Usage
+Make a pages folder in same location as Linear_Model_Simulator.py. Inside it put 2_Correlation Checker.py and 3_Graph Generator.py.
+To run the application run the following command in python console
+
+streamlit run Linear_Model_Simulator.py
