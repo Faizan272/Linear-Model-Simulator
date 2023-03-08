@@ -30,7 +30,7 @@ with st.sidebar:
             df = pd.read_excel(uploaded_file)
     cat_cols = [col for col in df.columns if df[col].dtype == 'object']
     #st.write(cat_cols)
-    df.to_csv(r"C:\Users\91992\Downloads\archive (5)\for_page2.csv")
+    df.to_csv(r"for_page2.csv")
     def get_target():
         target = st.sidebar.selectbox("Choose target variable", df.columns)
         return target
